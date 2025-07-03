@@ -1,7 +1,5 @@
 #root {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
+  max-width: 700px;
 }
 
 .logo {
@@ -38,5 +36,20 @@
 
 .read-the-docs {
   color: #888;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px #2C3E50;
+}
+table th {
+    background-color: #341ad8;
+    color: #ecf0f1;
+}
+table th, table td {
+    padding: 10px;
+    text-align: center;
 }
 
